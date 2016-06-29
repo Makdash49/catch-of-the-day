@@ -10,6 +10,10 @@ import { browserHistory } from 'react-router'
 
 var h = require('./helpers.js');
 
+// Firebase
+var Rebase = require('re-base');
+var base = Rebase.createClass('https://catch-of-the-day-3508e.firebaseio.com/');
+
 /*
 	App
 */
@@ -19,6 +23,12 @@ var App = React.createClass({
 			fishes : {},
 			order : {}
 		}
+	},
+	componentDidMount : function() {
+		base.syncState(this.props.params.storeId + '/fishes', {
+			context : this,
+			state : 'fishes'
+		});
 	},
 	addToOrder : function(key) {
 		this.state.order[key] = this.state.order[key] + 1 || 1;
