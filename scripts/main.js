@@ -18,6 +18,13 @@ var base = Rebase.createClass('https://catch-of-the-day-3508e.firebaseio.com/');
 var Catalyst = require('react-catalyst');
 
 /*
+	Import Components
+*/
+
+import NotFound from './components/NotFound';
+import StorePicker from './components/StorePicker';
+
+/*
 	App
 */
 var App = React.createClass({
@@ -299,43 +306,6 @@ var Inventory = React.createClass({
 		removeFish :React.PropTypes.func.isRequired
 	}
 })
-
-
-/*
-	StorePicker
-	This will let us make <StorePicker/>
-*/
-var StorePicker = React.createClass({
-	mixins : [History],
-	goToStore : function(event) {
-		event.preventDefault();
-		// get the data from the input
-		var storeId = this.refs.storeId.value;
-		console.log(storeId)
-		this.history.pushState(null, '/store/' + storeId);
-	},
-	render : function() {
-		return (
-			<form className="store-selector" onSubmit={this.goToStore}>
-				<h2>Please Enter A Store</h2>
-				<input type="text" ref="storeId" defaultValue={h.getFunName()} required />
-				<input type="Submit"/>
-			</form>
-		)
-	}
-
-});
-
-/*
-	Not Found
-*/
-
-var NotFound = React.createClass({
-	render : function(){
-		return <h1>Not Found!</h1>
-	}
-});
-
 
 
 /*
