@@ -1,0 +1,245 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-addons-css-transition-group',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of /Users/markmcquillen/Desktop/catch-of-the-day/package.json
+5 warn package.json catch-of-the-day@1.0.0 No description
+6 warn package.json catch-of-the-day@1.0.0 No repository field.
+7 warn package.json catch-of-the-day@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/autobind-decorator/package.json
+9 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/babel/package.json
+10 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/babelify/package.json
+11 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/browser-sync/package.json
+12 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/browserify/package.json
+13 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/connect-history-api-fallback/package.json
+14 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/firebase/package.json
+15 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp/package.json
+16 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-autoprefixer/package.json
+17 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-notify/package.json
+18 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-rename/package.json
+19 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-stylus/package.json
+20 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-uglify/package.json
+21 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-util/package.json
+22 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/history/package.json
+23 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/install/package.json
+24 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/re-base/package.json
+25 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react/package.json
+26 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group/package.json
+27 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-catalyst/package.json
+28 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-dom/package.json
+29 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-mixin/package.json
+30 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-router/package.json
+31 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/vinyl-buffer/package.json
+32 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/vinyl-source-stream/package.json
+33 verbose installManyTop reading scoped package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/watchify/package.json
+34 info package.json autobind-decorator@1.3.2 No repository field.
+35 info package.json firebase@2.3.1 No license field.
+36 info package.json gulp-notify@2.2.0 No license field.
+37 info package.json gulp-rename@1.2.2 No license field.
+38 info package.json install@0.1.8 No license field.
+39 info package.json re-base@1.5.1 No license field.
+40 info package.json react-catalyst@0.3.0 No license field.
+41 verbose readDependencies loading dependencies from /Users/markmcquillen/Desktop/catch-of-the-day/package.json
+42 verbose install react-addons-css-transition-group is installed as 15.2.0
+43 silly cache add args [ 'react-addons-css-transition-group', null ]
+44 verbose cache add spec react-addons-css-transition-group
+45 silly cache add parsed spec Result {
+45 silly cache add   raw: 'react-addons-css-transition-group',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'react-addons-css-transition-group',
+45 silly cache add   rawSpec: '',
+45 silly cache add   spec: 'latest',
+45 silly cache add   type: 'tag' }
+46 silly addNamed react-addons-css-transition-group@latest
+47 verbose addNamed "latest" is being treated as a dist-tag for react-addons-css-transition-group
+48 info addNameTag [ 'react-addons-css-transition-group', 'latest' ]
+49 silly mapToRegistry name react-addons-css-transition-group
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: 'react-addons-css-transition-group',
+52 silly mapToRegistry   scope: null,
+52 silly mapToRegistry   name: 'react-addons-css-transition-group',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri https://registry.npmjs.org/react-addons-css-transition-group
+54 verbose addNameTag registry:https://registry.npmjs.org/react-addons-css-transition-group not in flight; fetching
+55 verbose request uri https://registry.npmjs.org/react-addons-css-transition-group
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 12:07:53 PM
+58 verbose request id 601256b7d4010d36
+59 verbose etag "3NKRGANLRL7NQOBMXIPSF5JU9"
+60 http request GET https://registry.npmjs.org/react-addons-css-transition-group
+61 http 304 https://registry.npmjs.org/react-addons-css-transition-group
+62 verbose headers { date: 'Sun, 03 Jul 2016 19:07:53 GMT',
+62 verbose headers   via: '1.1 varnish',
+62 verbose headers   'cache-control': 'max-age=300',
+62 verbose headers   etag: '"3NKRGANLRL7NQOBMXIPSF5JU9"',
+62 verbose headers   age: '104',
+62 verbose headers   connection: 'keep-alive',
+62 verbose headers   'x-served-by': 'cache-sjc3639-SJC',
+62 verbose headers   'x-cache': 'HIT',
+62 verbose headers   'x-cache-hits': '1',
+62 verbose headers   'x-timer': 'S1467572873.319311,VS0,VE0',
+62 verbose headers   vary: 'Accept-Encoding' }
+63 silly get cb [ 304,
+63 silly get   { date: 'Sun, 03 Jul 2016 19:07:53 GMT',
+63 silly get     via: '1.1 varnish',
+63 silly get     'cache-control': 'max-age=300',
+63 silly get     etag: '"3NKRGANLRL7NQOBMXIPSF5JU9"',
+63 silly get     age: '104',
+63 silly get     connection: 'keep-alive',
+63 silly get     'x-served-by': 'cache-sjc3639-SJC',
+63 silly get     'x-cache': 'HIT',
+63 silly get     'x-cache-hits': '1',
+63 silly get     'x-timer': 'S1467572873.319311,VS0,VE0',
+63 silly get     vary: 'Accept-Encoding' } ]
+64 verbose etag https://registry.npmjs.org/react-addons-css-transition-group from cache
+65 verbose get saving react-addons-css-transition-group to /Users/markmcquillen/.npm/registry.npmjs.org/react-addons-css-transition-group/.cache.json
+66 verbose correctMkdir /Users/markmcquillen/.npm correctMkdir not in flight; initializing
+67 silly addNameTag next cb for react-addons-css-transition-group with tag latest
+68 silly addNamed react-addons-css-transition-group@15.2.0
+69 verbose addNamed "15.2.0" is a plain semver version for react-addons-css-transition-group
+70 silly cache afterAdd react-addons-css-transition-group@15.2.0
+71 verbose afterAdd /Users/markmcquillen/.npm/react-addons-css-transition-group/15.2.0/package/package.json not in flight; writing
+72 verbose correctMkdir /Users/markmcquillen/.npm correctMkdir not in flight; initializing
+73 verbose afterAdd /Users/markmcquillen/.npm/react-addons-css-transition-group/15.2.0/package/package.json written
+74 silly install resolved [ { name: 'react-addons-css-transition-group',
+74 silly install resolved     version: '15.2.0',
+74 silly install resolved     main: 'index.js',
+74 silly install resolved     repository:
+74 silly install resolved      { type: 'git',
+74 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+74 silly install resolved     keywords: [ 'react', 'react-addon' ],
+74 silly install resolved     license: 'BSD-3-Clause',
+74 silly install resolved     dependencies: {},
+74 silly install resolved     peerDependencies: { react: '^15.2.0' },
+74 silly install resolved     description: 'This package provides the React CSSTransitionGroup add-on.',
+74 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+74 silly install resolved     homepage: 'https://github.com/facebook/react#readme',
+74 silly install resolved     _id: 'react-addons-css-transition-group@15.2.0',
+74 silly install resolved     _shasum: '3ce3002489fc08705ce77b929bf00376514236ad',
+74 silly install resolved     _resolved: 'https://registry.npmjs.org/react-addons-css-transition-group/-/react-addons-css-transition-group-15.2.0.tgz',
+74 silly install resolved     _from: 'react-addons-css-transition-group@latest',
+74 silly install resolved     scripts: {},
+74 silly install resolved     _npmVersion: '2.15.5',
+74 silly install resolved     _nodeVersion: '4.4.5',
+74 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+74 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+74 silly install resolved     dist:
+74 silly install resolved      { shasum: '3ce3002489fc08705ce77b929bf00376514236ad',
+74 silly install resolved        tarball: 'https://registry.npmjs.org/react-addons-css-transition-group/-/react-addons-css-transition-group-15.2.0.tgz' },
+74 silly install resolved     _npmOperationalInternal:
+74 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+74 silly install resolved        tmp: 'tmp/react-addons-css-transition-group-15.2.0.tgz_1467399102817_0.9852273040451109' },
+74 silly install resolved     directories: {},
+74 silly install resolved     readme: 'ERROR: No README data found!' } ]
+75 info install react-addons-css-transition-group@15.2.0 into /Users/markmcquillen/Desktop/catch-of-the-day
+76 info installOne react-addons-css-transition-group@15.2.0
+77 verbose installOne of react-addons-css-transition-group to /Users/markmcquillen/Desktop/catch-of-the-day not in flight; installing
+78 verbose correctMkdir /Users/markmcquillen/.npm/_locks correctMkdir not in flight; initializing
+79 verbose lock using /Users/markmcquillen/.npm/_locks/react-addons-css-transit-95b599674d9adcac.lock for /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group
+80 silly install write writing react-addons-css-transition-group 15.2.0 to /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group
+81 verbose unbuild node_modules/react-addons-css-transition-group
+82 info preuninstall react-addons-css-transition-group@15.2.0
+83 info uninstall react-addons-css-transition-group@15.2.0
+84 verbose unbuild rmStuff react-addons-css-transition-group@15.2.0 from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules
+85 info postuninstall react-addons-css-transition-group@15.2.0
+86 silly gentlyRm /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group is being purged from base /Users/markmcquillen/Desktop/catch-of-the-day
+87 verbose gentlyRm don't care about contents; nuking /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group
+88 silly vacuum-fs purging /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group
+89 silly vacuum-fs quitting because other entries in /Users/markmcquillen/Desktop/catch-of-the-day/node_modules
+90 verbose tar unpack /Users/markmcquillen/.npm/react-addons-css-transition-group/15.2.0/package.tgz
+91 verbose tar unpacking to /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group
+92 silly gentlyRm /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group is being purged
+93 verbose gentlyRm don't care about contents; nuking /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group
+94 silly gunzTarPerm modes [ '755', '644' ]
+95 silly gunzTarPerm extractEntry package.json
+96 silly gunzTarPerm extractEntry README.md
+97 silly gunzTarPerm extractEntry LICENSE
+98 silly gunzTarPerm extractEntry index.js
+99 silly gunzTarPerm extractEntry PATENTS
+100 verbose write writing to /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group/package.json
+101 info preinstall react-addons-css-transition-group@15.2.0
+102 verbose readDependencies loading dependencies from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group/package.json
+103 silly prepareForInstallMany adding react@^15.2.0 from react-addons-css-transition-group peerDependencies
+104 warn peerDependencies The peer dependency react@^15.2.0 included from react-addons-css-transition-group will no
+105 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+106 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+107 verbose readDependencies loading dependencies from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group/package.json
+108 silly install resolved []
+109 verbose about to build /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group
+110 info build /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group
+111 info linkStuff react-addons-css-transition-group@15.2.0
+112 silly linkStuff react-addons-css-transition-group@15.2.0 has /Users/markmcquillen/Desktop/catch-of-the-day/node_modules as its parent node_modules
+113 verbose linkBins react-addons-css-transition-group@15.2.0
+114 verbose linkMans react-addons-css-transition-group@15.2.0
+115 verbose rebuildBundles react-addons-css-transition-group@15.2.0
+116 info install react-addons-css-transition-group@15.2.0
+117 info postinstall react-addons-css-transition-group@15.2.0
+118 verbose readDependencies loading dependencies from /Users/markmcquillen/Desktop/catch-of-the-day/package.json
+119 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/autobind-decorator/package.json
+120 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/babel/package.json
+121 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/babelify/package.json
+122 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/browser-sync/package.json
+123 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/browserify/package.json
+124 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/connect-history-api-fallback/package.json
+125 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/firebase/package.json
+126 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp/package.json
+127 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-autoprefixer/package.json
+128 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-notify/package.json
+129 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-rename/package.json
+130 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-stylus/package.json
+131 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-uglify/package.json
+132 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/gulp-util/package.json
+133 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/history/package.json
+134 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/install/package.json
+135 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/re-base/package.json
+136 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react/package.json
+137 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group/package.json
+138 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-catalyst/package.json
+139 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-dom/package.json
+140 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-mixin/package.json
+141 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-router/package.json
+142 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/vinyl-buffer/package.json
+143 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/vinyl-source-stream/package.json
+144 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/watchify/package.json
+145 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/.bin/babel/package.json
+146 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/.bin/babel-external-helpers/package.json
+147 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/.bin/babel-node/package.json
+148 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/.bin/babel-plugin/package.json
+149 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/.bin/browser-sync/package.json
+150 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/.bin/browserify/package.json
+151 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/.bin/gulp/package.json
+152 verbose targetResolver reading package data from /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/.bin/watchify/package.json
+153 verbose already installed skipping react@^15.2.0 /Users/markmcquillen/Desktop/catch-of-the-day
+154 silly install resolved []
+155 verbose unlock done using /Users/markmcquillen/.npm/_locks/react-addons-css-transit-95b599674d9adcac.lock for /Users/markmcquillen/Desktop/catch-of-the-day/node_modules/react-addons-css-transition-group
+156 verbose validateInstall loading /Users/markmcquillen/Desktop/catch-of-the-day/package.json for validation
+157 verbose stack Error: The package react@15.1.0 does not satisfy its siblings' peerDependencies requirements!
+157 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+157 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+157 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+157 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+157 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+157 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+157 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+157 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+157 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+157 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+158 verbose cwd /Users/markmcquillen/Desktop/catch-of-the-day
+159 error Darwin 15.4.0
+160 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-addons-css-transition-group" "--save-dev"
+161 error node v4.4.5
+162 error npm  v2.15.5
+163 error code EPEERINVALID
+164 error peerinvalid The package react@15.1.0 does not satisfy its siblings' peerDependencies requirements!
+164 error peerinvalid Peer react-addons-css-transition-group@15.2.0 wants react@^15.2.0
+164 error peerinvalid Peer react-dom@15.1.0 wants react@^15.1.0
+164 error peerinvalid Peer react-router@2.4.1 wants react@^0.14.0 || ^15.0.0
+165 verbose exit [ 1, true ]
